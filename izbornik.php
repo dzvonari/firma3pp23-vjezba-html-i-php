@@ -7,6 +7,7 @@
       <li><a href="suzivot.php">Suživot PHP i HTML</a></li>
       <li><a href="varijable.php">Varijable</a></li>
       <li><a href="getparametri.php">GET parametri</a></li>
+      <li><a href="zadatak2.php">Zadatak</a></li>
     </ul>
   </li>
   <li>

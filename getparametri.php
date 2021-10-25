@@ -22,10 +22,21 @@
            //print_r($_GET);
            $ime = $_GET['ime'];
            
+           
            echo gettype($ime),':',$ime, '<br>';
 
-           $godina= $_GET['godina'];
+           $godina= intval($_GET['godina']);
            echo gettype($godina),':',$godina, '<br>';
+
+           $b = $_GET['broj'];
+
+           echo gettype($b),':',$b, '<br>';
+
+           $rezultat= $godina + $b;
+           echo gettype($rezultat), ': ', $rezultat, '<br>';
+
+
+          
 
         ?>
           
