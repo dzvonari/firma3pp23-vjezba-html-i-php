@@ -12,26 +12,21 @@
       ?>
       <div class="grid-x grid-padding-x">
         <div class="large-8 cell" >
-        <h1>Varijable</h1>
+        <h1>GET parametri</h1>
           <pre>
-          $varijabla=7;
-
-echo gettype($varijabla), '<br>';
-
-$varijabla="7";
-
-echo gettype($varijabla), '<br>';
+          print_r($_GET);
           </pre>
         </div>
         <div class="large-4 cell">
         <?php
-        $varijabla=7;
+           //print_r($_GET);
+           $ime = $_GET['ime'];
+           
+           echo gettype($ime),':',$ime, '<br>';
 
-        echo gettype($varijabla), '<br>';
+           $godina= $_GET['godina'];
+           echo gettype($godina),':',$godina, '<br>';
 
-        $varijabla="7";
-
-        echo gettype($varijabla), '<br>';
         ?>
           
         </div>

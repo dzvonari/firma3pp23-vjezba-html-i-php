@@ -6,7 +6,7 @@
       <li><a href="helloworld.php">Hello world</a></li>
       <li><a href="suzivot.php">Suživot PHP i HTML</a></li>
       <li><a href="varijable.php">Varijable</a></li>
-      <li><a href="#">GET parametri</a></li>
+      <li><a href="getparametri.php">GET parametri</a></li>
     </ul>
   </li>
   <li>
