@@ -7,13 +7,13 @@
       <li><a href="suzivot.php">Suživot PHP i HTML</a></li>
       <li><a href="varijable.php">Varijable</a></li>
       <li><a href="getparametri.php">GET parametri</a></li>
-      <li><a href="zadatak2.php">Zadatak</a></li>
+      <li><a href="zadatak3.php?b1=2&b2=6">Zadatak</a></li>
     </ul>
   </li>
   <li>
-    <a href="#">Item 2</a>
+    <a href="#">Uvjetna grananja</a>
     <ul class="vertical menu">
-      <li><a href="#">Item 2A</a></li>
+      <li><a href="if.php?broj=2">If</a></li>
       <li><a href="#">Item 2B</a></li>
     </ul>
   </li>
