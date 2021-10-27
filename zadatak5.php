@@ -12,7 +12,7 @@ if($broj > $ime && $broj > $t){
     }else if($t > $broj && $t>$ime){
         echo $t;
     }else{
-        echo 'Jednaki su';
+        echo 'Jednaki su', ': ', 'ILI NE';
     }
 
 ?>

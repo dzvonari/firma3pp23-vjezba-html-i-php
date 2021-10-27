@@ -14,8 +14,8 @@
     <a href="#">Uvjetna grananja</a>
     <ul class="vertical menu">
       <li><a href="if.php?broj=2">If</a></li>
-      <li><a target="_blank" href="switch.php?broj=2">Switch</a></li>
-      <li><a target="_blank" href="operatori.php">operatori</a></li>
+      <li><a href="switch.php?broj=2">Switch</a></li>
+      <li><a href="operatori.php">operatori</a></li>
     </ul>
   </li>
   <li>
