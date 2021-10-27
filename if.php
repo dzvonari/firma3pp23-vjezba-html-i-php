@@ -85,9 +85,20 @@
                 echo 'Loše', '<br>';
               }
             
-          echo $k===1 ? 'Super ' : 'Loše';
-          
+          echo $k===1 ? 'Super ' : 'Loše','<br>';
 
+          if(isset($_GET['broj'])){
+            $broj = (int)$_GET['broj'];
+          }else{
+            echo 'broj nije postavljen';
+            $broj=0;
+          }
+
+          echo $broj,'<br>';
+          
+          $broj = isset($_GET['broj']) ? (int)$_GET['broj'] : 0;
+          
+          echo $broj,'<br>';
           
         ?>
           
