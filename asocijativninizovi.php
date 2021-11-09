@@ -43,3 +43,37 @@ foreach($niz as $k => $v){
     }
     echo $k, ' je ', $v;
 }
+
+$niz = ['pero','kljuc'=>2];
+
+
+echo '<pre>';
+print_r($niz);
+echo '</pre>';
+
+$podaci = [ 
+    ['sifra' => 1,
+    'naziv' => 'PHP'    
+    ],
+    ['sifra' => 2,
+    'naziv' => 'JAVA'    
+    ],
+
+];
+
+echo '<pre>';
+print_r($podaci);
+echo '</pre>';
+
+echo $podaci [0]['naziv'],'<br>',
+    $podaci [1]['naziv'],'<br>';
+
+    
+
+    foreach($podaci as $r){
+        foreach($r as $v){
+            echo $v, '<br>';
+        }
+
+        echo $r['sifra'], '   ',$r['naziv'], '<br>';
+    }

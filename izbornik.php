@@ -11,6 +11,7 @@
       <li><a href="zadatak3.php?b1=2&b2=6">Zadatak 3</a></li>
       <li><a href="zadatak5.php?broj=2&ime=4&t=9">Zadatak 5</a></li>
       <li><a href="zadatak6.php">Zadatak 6</a></li>
+      <li><a href="zadatak7.php">Zadatak 7</a></li>
     </ul>
   </li>
   <li>
